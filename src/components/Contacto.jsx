@@ -101,7 +101,7 @@ const Contacto = () => {
                 <input
                   className="boton-form"
                   type="submit"
-                  name="enviar"
+                  
                   id="enviar"
                   defaultValue="Enviar Mensaje"
                 />
