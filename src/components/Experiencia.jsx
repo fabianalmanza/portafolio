@@ -92,6 +92,49 @@ const Experiencia = () => {
                   />
                 </div>
               </div>
+
+                
+              <div className="experiencia__contenido wordle">
+                <img
+                  className="experiencia__contenido__img"
+                  src="https://i.ibb.co/pZH0d2t/3-1.gif"
+                  alt="Proyecto Wordle Clone"
+                />
+                <div className="experiencia__contenido__informacion">
+                  <h3 className="experiencia__contenido__informacion__titulo">
+                    Juego del ahorcado
+                  </h3>
+                  <p className="experiencia__contenido__informacion__texto">
+                    Interfaz atractiva y fácil de usar. <br /> <br />
+                    Antes de iniciar el juego puedes agregar una nueva palabra
+Cuando agregues la nueva palabra enseguida inicias el juego
+Puedes jugar cuantas veces quieras.
+Por cada juego puedes equivocarte como maximo 9 veces para seguir con vida
+Si completas la palabra antes del ahorcado has ganado!
+Si te equivocas 9 veces sin completar la palabra, habras perdido.
+                    <br />
+                    <br />
+                   IT skills HTML, CSS, Js
+                  </p>
+                  <div className="experiencia__contenido__informacion__botones">
+                    <a
+                      className="btn-repo"
+                      href="https://github.com/fabianalmanza/Juego-Ahorcado_Challengue-2-master"
+                      target="_blank"
+                    >
+                      Repositorio
+                    </a>
+                    <a
+                      className="btn-demo"
+                      href="https://juego-adivina-palabra.netlify.app/"
+                      target="_blank"
+                    >
+                      Ver Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
