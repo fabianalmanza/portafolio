@@ -1,8 +1,30 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Mi Portafolio
 
-Currently, two official plugins are available:
+[Puedes ver mi portafolio aqui!](https://portafoliofabianalmanza.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Secciones
+* Sobre mi 
+* Skills
+* Hobbies
+* Formacion Academica
+* Experiencia Laboral
+* Contacto
+
+## Construido con 🛠️
+
+* Html
+* Css
+* Javascript
+* React
+
+---
+
+<div align="center">
+  
+  ![giphy](https://user-images.githubusercontent.com/42880872/156003638-cb5322ae-3406-48c6-ba64-c8def9ed4876.gif)
+  
+  ⌨️ con ❤️ por [FabianAlmanza](https://github.com/fabianalmanza) 😊
+</div>
+
