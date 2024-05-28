@@ -81,8 +81,8 @@ const Skills = () => {
                 <div className="hobbies__card__contenido">
                   <img
                     className="hobbies__card__img"
-                    src="https://image.canva.com/RNKh-bVp2y7s6VAlB3SFjw%3D%3D/criAPDObnbY3yLh0M-zCPw%3D%3D.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH25PN7VSL%2F20240528%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240528T070835Z&X-Amz-Expires=50709&X-Amz-Signature=7bb7bb556e9e28500b8cb92ddd767a97db38163f81cd2f32294b8432aa5047e6&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Tue%2C%2028%20May%202024%2021%3A13%3A44%20GMT"
-                    alt="Logo"
+                    src="https://w7.pngwing.com/pngs/320/1014/png-transparent-city-bicycle-cycling-computer-icons-bike-rental-bicycle-bicycle-logo-mountain-biking.png"
+                    alt="bici"
                   />
                   <p className="hobbies__card__titulo">Montar Bici</p>
                 </div>
@@ -101,9 +101,8 @@ const Skills = () => {
                 <div className="hobbies__card__contenido">
                   <img
                     className="hobbies__card__img"
-                    src="	https://marketplace.canva.com/xEcGs/MAFvzpxEcGs/1/tl/canva-MAFvzpxEcGs.png
-                    "
-                    alt="Logo Boostrap"
+                    src="https://i.ibb.co/QQtYbK5/pelicula.png             "
+                    alt="Logo cine"
                   />
                   <p className="hobbies__card__titulo">Lectura</p>
                 </div>
