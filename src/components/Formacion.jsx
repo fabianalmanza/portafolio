@@ -28,7 +28,7 @@ const Formacion = () => {
                 <div className="formacion__card__img">
                   <img
                     className="logo_sergio"
-                    src="https://comunicaciones.uis.edu.co/wp-content/uploads/2022/10/logo_negro_horz_.jpg"
+                    src="https://static.wixstatic.com/media/64ab98_ec1d1018b3e94e3da18ae6fc2266bdc4~mv2.png/v1/fill/w_420,h_192,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/UIS-logo1.png"
                     alt="Logo UIS"
                   />
                 </div>
