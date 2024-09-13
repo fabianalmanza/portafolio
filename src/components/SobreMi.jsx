@@ -1,6 +1,6 @@
 const SobreMi = () => {
     return (
-        <section className="bg-custom-light-blue py-12 rounded-md ">
+        <section id="sobremi" className="bg-custom-light-blue py-12 rounded-md ">
             <div className="container mx-auto px-4">
                 <h2 className="text-3xl font-semibold text-gray-700 mb-8">
                     Sobre mi
