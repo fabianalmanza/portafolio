@@ -1,6 +1,6 @@
 import { FaGithubAlt, FaLinkedin } from "react-icons/fa";
 import { TbFileCv } from "react-icons/tb";
-
+// banner
 const Baner = () => {
     return (
         <section className="bg-secundario py-8">
