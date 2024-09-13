@@ -14,13 +14,21 @@ const App = () => {
   return (
     <>
       <Menu />
+<<<<<<< HEAD
       <main>
+=======
+      <main className=' bg-secundario'>
+>>>>>>> 5d0f72a (se adapto el proyecto hacia tailwind)
         <Baner />
         <SobreMi />
         <Skills />
         <Formacion />
         <Experiencia />
+<<<<<<< HEAD
         <Contacto />
+=======
+        <Contacto  />
+>>>>>>> 5d0f72a (se adapto el proyecto hacia tailwind)
       </main>
       <Footer />
     </>
