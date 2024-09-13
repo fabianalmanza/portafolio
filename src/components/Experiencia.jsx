@@ -147,9 +147,23 @@ export default Experiencia;
     return (
         <section className="bg-secundario py-12">
             <div id="experiencia" className="container mx-auto px-4">
-                <h2 className="text-3xl font-semibold  text-center mb-8">
+                <h2 className="text-3xl text-custom-blue font-semibold  text-center mb-8">
                     Proyectos
                 </h2>
+                <div className="flex flex-col  lg:flex-row  rounded-lg overflow-hidden">
+                <p className=" font-my-cursive mb-4 ">
+                    A continuación se presentan algunos de los proyectos realizados como Desarrollador junior. <br />
+                    ❖  Página Web eCommerce: Diseñé y desarrollé una solución ecommerce para un cliente local, integrando sistemas de pago y
+                    funciones de gestión de productos. <br />
+                    ❖ Landing Pages: Creé landing pages personalizadas para profesionales, ayudando a destacar sus habilidades y proyectos <br />
+                    ❖ Desarrollo Frontend para Intranet de Analítica: Desarrollé un sistema integral para la recopilación y visualización de datos analíticos,
+                    mejorando significativamente la eficiencia en el análisis de información empresarial. <br />
+                    ❖ Desarrollo y Despliegue de APIs: Implementé APIs REST con seguridad JWT y gestioné el despliegue en producción utilizando
+                    herramientas como IIS y PM2. Incluyó la integración de servicios como Twilio para consultas de balance de cuenta.
+
+                </p>
+                </div>
+                <br />
                 <div className="space-y-8">
                     {/* Proyecto 1 */}
                     <div className="flex flex-col lg:flex-row bg-white rounded-lg shadow-md overflow-hidden">
@@ -189,7 +203,7 @@ export default Experiencia;
                             </div>
                         </div>
                     </div>
-  
+
                     {/* Proyecto 2 */}
                     <div className="flex flex-col lg:flex-row bg-white rounded-lg shadow-md overflow-hidden">
                         <div className="p-6 lg:w-1/2 flex flex-col justify-between">
@@ -228,7 +242,7 @@ export default Experiencia;
                             alt="Aplicación Clima"
                         />
                     </div>
-  
+
                     {/* Proyecto 3 */}
                     <div className="flex flex-col lg:flex-row bg-white rounded-lg shadow-md overflow-hidden">
                         <img
@@ -275,8 +289,14 @@ export default Experiencia;
             </div>
         </section>
     );
+<<<<<<< HEAD
   }
   
   export default Experiencia;
   
 >>>>>>> 5d0f72a (se adapto el proyecto hacia tailwind)
+=======
+}
+
+export default Experiencia;
+>>>>>>> 50c5ef5 (se agrego la lista de proyectos cmo jr)
