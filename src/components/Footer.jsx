@@ -1,23 +1,9 @@
 import React from 'react'
-<<<<<<< HEAD
-=======
 import { FaLinkedin, FaGithub } from "react-icons/fa";
->>>>>>> 5d0f72a (se adapto el proyecto hacia tailwind)
 
 export default function Footer() {
   return (
     <>
-<<<<<<< HEAD
-       {/*-----------------------------------------*/}
-      {/*--------------- FOOTER-------------------*/}
-      {/*-----------------------------------------*/}
-      <footer className="footer">
-        <div className="footer__contenido container">
-          <p>Desarrollado por Fabian Almanza</p>
-          <p>2024</p>
-        </div>
-      </footer>
-=======
       {/*-----------------------------------------*/}
       {/*--------------- FOOTER-------------------*/}
       {/*-----------------------------------------*/}
@@ -49,7 +35,6 @@ export default function Footer() {
         </div>
       </footer>
 
->>>>>>> 5d0f72a (se adapto el proyecto hacia tailwind)
     </>
   )
 }

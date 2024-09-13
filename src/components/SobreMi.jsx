@@ -19,4 +19,3 @@ const SobreMi = () => {
 }
 
 export default SobreMi;
->>>>>>> 5d0f72a (se adapto el proyecto hacia tailwind)
