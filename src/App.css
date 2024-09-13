@@ -14,3 +14,9 @@ img {
   @apply my-auto;
   @apply mx-6;
 }
+
+@media (max-width: 300px) {
+  .text-custom-sm {
+    font-size: 0.5rem; /* Ajusta el tamaño de fuente según tus necesidades */
+  }
+}

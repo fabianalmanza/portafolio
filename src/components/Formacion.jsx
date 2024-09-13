@@ -7,7 +7,7 @@ const Formacion = () => {
               </h2>
               <div className="flex flex-wrap justify-center gap-6">
                   {/* Card for each educational experience */}
-                  <div className="w-full sm:w-1/2 lg:w-1/3 bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
+                  <div className="w-full sm:w-1/2 lg:w-1/3 bg-white rounded-lg shadow-md p-4 flex flex-col items-center p-12 text-center">
                       <div className="w-24 h-24 mb-4">
                           <img
                               className="w-full h-full object-contain"
@@ -23,7 +23,7 @@ const Formacion = () => {
                       </p>
                   </div>
 
-                  <div className="w-full sm:w-1/2 lg:w-1/3 bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
+                  <div className="w-full sm:w-1/2 lg:w-1/3 bg-white rounded-lg shadow-md p-4 flex flex-col items-center p-12 text-center">
                       <div className="w-24 h-24 mb-4">
                           <img
                               className="w-full h-full object-contain"
@@ -39,7 +39,7 @@ const Formacion = () => {
                       </p>
                   </div>
 
-                  <div className="w-full sm:w-1/2 lg:w-1/3 bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
+                  <div className="w-full sm:w-1/2 lg:w-1/3 bg-white rounded-lg shadow-md p-4 flex flex-col items-center p-12 text-center">
                       <div className="w-24 h-24 mb-4">
                           <img
                               className="w-full h-full object-contain"
@@ -55,7 +55,7 @@ const Formacion = () => {
                       </p>
                   </div>
 
-                  <div className="w-full sm:w-1/2 lg:w-1/3 bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
+                  <div className="w-full sm:w-1/2 lg:w-1/3 bg-white rounded-lg shadow-md p-4 flex flex-col items-center p-12 text-center">
                       <div className="w-24 h-24 mb-4">
                           <img
                               className="w-full h-full object-contain"

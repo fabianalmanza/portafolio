@@ -13,8 +13,8 @@ import Footer from './components/Footer.jsx'
 const App = () => {
   return (
     <>
-      <Menu />
       <main className=' bg-secundario'>
+      <Menu />
         <Baner />
         <SobreMi />
         <Skills />

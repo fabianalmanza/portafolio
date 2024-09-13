@@ -6,9 +6,9 @@ const Baner = () => {
         <section className="bg-secundario py-8">
             <div className="container mx-auto px-4 flex justify-between items-center">
                 <div className="w-2/3">
-                    <h1 className="text-5xl font-bold text-gray-700 mb-5">Front-End Developer</h1>
+                    <h1 className="text-5xl font-bold text-gray-700 mb-5 text-custom-sm">Front-End Developer</h1>
                     
-                    <ul className="flex space-x-5">
+                    <ul className="flex flex-col md:flex-row gap-4 mt-4 md:mt-0">
                         <li>
                             <a 
                                 href="https://github.com/fabianalmanza" 

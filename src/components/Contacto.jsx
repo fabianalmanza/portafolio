@@ -17,7 +17,7 @@ const Contacto = () => {
                     method="POST"
                     className="w-2/5 space-y-6"
                 >
-                    <h2 className="text-3xl font-semibold  text-center mb-8">
+                    <h2 className="text-3xl font-semibold  text-center mb-8 text-custom-sm">
                         Contacto
                     </h2>
                     <div className="relative mb-6">    
@@ -95,7 +95,7 @@ const Contacto = () => {
                     </div>
                     <button
                         type="submit"
-                        className="px-4 py-2 bg-custom-blue text-white rounded hover:shadow-md"
+                        className="px-4 py-2 bg-custom-blue text-white rounded hover:shadow-md text-custom-sm"
                     >
                         Enviar Mensaje
                     </button>

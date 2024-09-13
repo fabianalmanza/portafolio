@@ -10,7 +10,7 @@ const Skills = () => {
         </h2>
         <div className="flex flex-wrap justify-center gap-4">
           {/* Card for each skill */}
-          <div className="w-1/6 max-w-xs bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
+          <div className="min-w-24 max-w-xs bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
             <img
               src="https://skillicons.dev/icons?i=html"
               alt="HTML"
@@ -18,7 +18,7 @@ const Skills = () => {
             />
             <p className="font-semibold">Html5</p>
           </div>
-          <div className="w-1/6 max-w-xs bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
+          <div className="min-w-24 max-w-xs bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
             <img
               src="https://skillicons.dev/icons?i=css"
               alt="CSS"
@@ -26,7 +26,7 @@ const Skills = () => {
             />
             <p className="font-semibold">Css</p>
           </div>
-          <div className="w-1/6 max-w-xs bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
+          <div className="min-w-24 max-w-xs bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
             <img
               src="https://skillicons.dev/icons?i=js"
               alt="JavaScript"
@@ -34,7 +34,7 @@ const Skills = () => {
             />
             <p className="font-semibold">Javascript</p>
           </div>
-          <div className="w-1/6 max-w-xs bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
+          <div className="min-w-24 max-w-xs bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
             <img
               src="https://skillicons.dev/icons?i=react"
               alt="React"
@@ -42,7 +42,7 @@ const Skills = () => {
             />
             <p className="font-semibold">React</p>
           </div>
-          <div className="w-1/6 max-w-xs bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
+          <div className="min-w-24 max-w-xs bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
             <img
               src="https://skillicons.dev/icons?i=nodejs"
               alt="Node.js"
@@ -50,7 +50,7 @@ const Skills = () => {
             />
             <p className="font-semibold">Nodejs</p>
           </div>
-          <div className="w-1/6 max-w-xs bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
+          <div className="min-w-24 max-w-xs bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
             <img
               src="https://skillicons.dev/icons?i=mysql"
               alt="MySQL"
@@ -58,7 +58,7 @@ const Skills = () => {
             />
             <p className="font-semibold">MySql</p>
           </div>
-          <div className="w-1/6 max-w-xs bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
+          <div className="min-w-24 max-w-xs bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
             <img
               src="https://skillicons.dev/icons?i=git"
               alt="Git"
@@ -66,7 +66,7 @@ const Skills = () => {
             />
             <p className="font-semibold">Git</p>
           </div>
-          <div className="w-1/6 max-w-xs bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
+          <div className="min-w-24 max-w-xs bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
             <img
               src="https://skillicons.dev/icons?i=tailwind"
               alt="Tailwind CSS"
@@ -83,19 +83,19 @@ const Skills = () => {
         </h2>
         <div className="flex flex-wrap justify-center gap-4 ">
           {/* Card for each hobby */}
-          <div className="w-1/6 max-w-xs bg-white rounded-lg shadow-md p-4 flex flex-col items-center justify-center py-11">
+          <div className="min-w-24 max-w-24 bg-white rounded-lg shadow-md p-4 flex flex-col items-center justify-center py-8">
          
-            <p className="font-semibold">Montar Bicicleta</p>
+            <p className="font-semibold">Bicicleta</p>
             <RiMotorbikeLine />
           </div>
-          <div className="w-1/6 max-w-xs bg-white rounded-lg shadow-md p-4 flex flex-col items-center justify-center">
+          <div className="min-w-24 max-w-24 bg-white rounded-lg shadow-md p-4 flex flex-col items-center justify-center py-8">
         
-            <p className="font-semibold">Ver Peliculas</p>
+            <p className="font-semibold">Peliculas</p>
             <SiThemoviedatabase />
           </div>
-          <div className="w-1/6 max-w-xs bg-white rounded-lg shadow-md p-4 flex flex-col items-center justify-center">
+          <div className="min-w-24 max-w-24 bg-white rounded-lg shadow-md p-4 flex flex-col items-center justify-center py-8">
          
-            <p className="font-semibold">La Lectura</p>
+            <p className="font-semibold">Lectura</p>
             <FaBook />
           </div>
         </div>
