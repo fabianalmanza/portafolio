@@ -1,9 +1,9 @@
 const Menu = () => {
     return (
-        <header className="bg-custom-light-blue w-full">
+        <header className="bg-custom-light-blue w-full ">
             <div className="mx-auto px-4 max-w-7xl">
                 <nav className="flex flex-col md:flex-row justify-between items-center py-8">
-                    <p className="text-red-800 font-semibold  text-lg md:text-xl before:content-['🚀']">
+                    <p className="text-secundary font-semibold  text-lg md:text-2xl ">
                         Fabian Almanza
                     </p>
                     <ul className="flex flex-col md:flex-row gap-4 mt-4 md:mt-0 ">

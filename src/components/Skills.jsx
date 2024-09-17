@@ -83,17 +83,17 @@ const Skills = () => {
         </h2>
         <div className="flex flex-wrap justify-center gap-4 ">
           {/* Card for each hobby */}
-          <div className="min-w-24 max-w-24 bg-white rounded-lg shadow-md p-4 flex flex-col items-center justify-center py-8">
+          <div className="min-w-36  bg-white rounded-lg shadow-md p-4 flex flex-col items-center justify-center py-8">
          
             <p className="font-semibold">Bicicleta</p>
             <RiMotorbikeLine />
           </div>
-          <div className="min-w-24 max-w-24 bg-white rounded-lg shadow-md p-4 flex flex-col items-center justify-center py-8">
+          <div className="min-w-36 bg-white rounded-lg shadow-md p-4 flex flex-col items-center justify-center py-8">
         
             <p className="font-semibold">Peliculas</p>
             <SiThemoviedatabase />
           </div>
-          <div className="min-w-24 max-w-24 bg-white rounded-lg shadow-md p-4 flex flex-col items-center justify-center py-8">
+          <div className="min-w-36 bg-white rounded-lg shadow-md p-4 flex flex-col items-center justify-center py-8">
          
             <p className="font-semibold">Lectura</p>
             <FaBook />

@@ -10,9 +10,9 @@ module.exports = {
           'my-cursive': ['"Your Cursive Font"', 'cursive'],
       },
       colors: {
-          'custom-blue': '#1A365D',        // Rojo oscuro
-          'secundario': '#2A9D8F',         // Gris medio
-          'custom-light-blue': '#F9F7F3',  // Rosa pálido
+          'custom-blue': '#1A365D',        
+          'secundario': '#2A9D8F',         
+          'custom-light-blue': '#F9F7F3',  
       },
     },
   },
