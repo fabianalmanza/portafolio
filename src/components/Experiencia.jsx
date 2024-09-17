@@ -54,7 +54,7 @@ const projects = [
   },
   {
     title: "Balance Checker",
-    description: "Balance Checker es una aplicación Node.js diseñada para monitorear y gestionar el saldo de una cuenta Twilio. Esta herramienta es crucial para mantener la continuidad de los servicios de comunicación, asegurando que siempre haya fondos suficientes para las operaciones.",
+    description: "Balance Checker es una aplicación Node.js diseñada para monitorear y gestionar el saldo de una cuenta Twilio. Esta herramienta es crucial para mantener la continuidad de los servicios de comunicación, asegurando que siempre haya fondos suficientes para las operaciones, Ruta protegida con JWT para autenticación.",
     laptopImage: "https://i.imgur.com/XieZ5Rm.png",
     gifImage: "https://i.imgur.com/sGoKEVC.gif",
     technologies: ["Node.js", "Twilio", "JavaScript","Jwt","Express","postman"],
