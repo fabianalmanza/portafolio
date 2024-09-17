@@ -1,152 +1,128 @@
-const Experiencia = () => {
-    return (
-        <section className="bg-secundario py-12">
-            <div id="experiencia" className="container mx-auto px-4">
-                <h2 className="text-3xl text-custom-blue font-semibold  text-center mb-8">
-                    Proyectos
-                </h2>
-                <div className="flex flex-col  lg:flex-row  rounded-lg overflow-hidden">
-                <p className=" font-my-cursive mb-4 ">
-                    A continuación se presentan algunos de los proyectos realizados como Desarrollador junior. <br />
-                    ❖  Página Web eCommerce: Diseñé y desarrollé una solución ecommerce para un cliente local, integrando sistemas de pago y
-                    funciones de gestión de productos. <br />
-                    ❖ Landing Pages: Creé landing pages personalizadas para profesionales, ayudando a destacar sus habilidades y proyectos <br />
-                    ❖ Desarrollo Frontend para Intranet de Analítica: Desarrollé un sistema integral para la recopilación y visualización de datos analíticos,
-                    mejorando significativamente la eficiencia en el análisis de información empresarial. <br />
-                    ❖ Desarrollo y Despliegue de APIs: Implementé APIs REST con seguridad JWT y gestioné el despliegue en producción utilizando
-                    herramientas como IIS y PM2. Incluyó la integración de servicios como Twilio para consultas de balance de cuenta.
+// experiencia.jsx
 
-                </p>
-                </div>
-                <br />
-
-
-                <div className="container mx-auto px-4 py-8">
-      {/* Proyectos */}
-      <div className="grid gap-8 md:grid-cols-2">
-        
-        {/* Proyecto 1 */}
-        <div className="flex flex-col bg-white rounded-lg shadow-md overflow-hidden p-5">
-          <img
-            className=" h-60 "
-            src="https://i.ibb.co/bdt9Dq6/calculadora.png"
-            alt="Proyecto Calculadora"
-          />
-          <div className=" flex flex-col justify-between">
-            <h3 className="text-2xl font-semibold mb-4">Calculadora</h3>
-            <p className="font-my-cursive mb-4">
-              Interfaz atractiva y fácil de usar. Botones numéricos y operadores que permitirán operaciones básicas.
-              <br />
-              <br />
-              El campo de visualización mostrará la expresión y el resultado. La calculadora realizará sumas, restas,
-              multiplicaciones y divisiones. IT skills: HTML, CSS, JS
-            </p>
-            <div className="flex space-x-4">
-              <a
-                className="inline-block px-6 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-100"
-                href="https://github.com/fabianalmanza/base-calculadora-curso-js/tree/master"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Repositorio
-              </a>
-              <a
-                className="inline-block px-8 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-                href="https://subtle-dragon-71c221.netlify.app"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Ver Demo
-              </a>
-            </div>
-          </div>
-        </div>
-
-        {/* Proyecto 2 */}
-        <div className="flex flex-col bg-white rounded-lg shadow-md overflow-hidden">
-          <div className="p-6 flex flex-col justify-between">
-            <h3 className="text-2xl font-semibold mb-4">Aplicación del Clima</h3>
-            <p className="font-my-cursive mb-4">
-              Ingresa el nombre de la ciudad y obtén datos actualizados al instante. Visualiza pronósticos detallados para
-              planificar tu semana. Interfaz intuitiva y agradable.
-              <br />
-              <br />
-              Acceso por medio de la API a información meteorológica - IT skills: HTML, CSS y JavaScript.
-            </p>
-            <div className="flex space-x-4">
-              <a
-                className="inline-block px-6 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-100"
-                href="https://github.com/fabianalmanza/aplicacion-clima"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Repositorio
-              </a>
-              <a
-                className="inline-block px-8 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-                href="https://fabianalmanza.github.io/aplicacion-clima/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Ver Demo
-              </a>
-            </div>
-          </div>
-          <img
-            className=" h-60 mb-5"
-            src="https://i.ibb.co/5KpwM2h/clima.png"
-            alt="Aplicación Clima"
-          />
-        </div>
-
-        {/* Proyecto 3 */}
-        <div className="flex flex-col bg-white rounded-lg shadow-md overflow-hidden">
-          <img
-           className=" h-60 "
-            src="https://i.ibb.co/pZH0d2t/3-1.gif"
-            alt="Juego del Ahorcado"
-          />
-          <div className="p-6 flex flex-col justify-between">
-            <h3 className="text-2xl font-semibold mb-4">Juego del Ahorcado</h3>
-            <p className="font-my-cursive mb-4">
-              Interfaz atractiva y fácil de usar.
-              <br />
-              <br />
-              Antes de iniciar el juego puedes agregar una nueva palabra. Cuando agregues la nueva palabra enseguida inicias el juego.
-              Puedes jugar cuantas veces quieras. Por cada juego puedes equivocarte como máximo 9 veces para seguir con vida.
-              Si completas la palabra antes del ahorcado has ganado! Si te equivocas 9 veces sin completar la palabra, habrás perdido.
-              <br />
-              <br />
-              IT skills: HTML, CSS, JS
-            </p>
-            <div className="flex space-x-4">
-              <a
-                className="inline-block px-6 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-100"
-                href="https://github.com/fabianalmanza/Juego-Ahorcado_Challengue-2-master"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Repositorio
-              </a>
-              <a
-                className="inline-block px-8 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-                href="https://juego-adivina-palabra.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Ver Demo
-              </a>
-            </div>
-          </div>
-        </div>
-
+const LaptopWithGIF = ({ laptopImage, gifImage, title}) => {
+  return (
+    <div className="relative w-full h-full  rounded-lg overflow-hidden">
+      {/* Laptop image */}
+      <div className="absolute inset-0">
+        <img
+          src={laptopImage}
+          alt={`Laptop view for ${title}`}
+          className="w-full h-full object-cover rounded-lg"
+        />
+      </div>
+      {/* GIF image */}
+      <div className="absolute inset-0 flex items-center justify-center">
+        <img
+          src={gifImage}
+          alt={`GIF for ${title}`}
+          className="max-w-[78%] max-h-[70%] object-contain mr-1 pb-4"
+        />
       </div>
     </div>
+  );
+};
 
+const projects = [
+  {
+    title: "Seresa Ecommerce",
+    description: "Aplicación de comercio electrónico diseñada para una tienda de joyería, permitiendo a los usuarios explorar productos, agregar artículos al carrito y realizar pedidos.",
+    laptopImage: "https://i.imgur.com/XieZ5Rm.png",
+    gifImage: "https://i.imgur.com/QCVS5Ef.gif",
+    technologies: ["React", "Tailwind", "JS","Vercel","Git"],
+    demoUrl: "https://seresa.vercel.app/",
+    repoUrl: "https://github.com/fabianalmanza/seresa",
+  },
+  {
+    title: "Portal Menu Intranet",
+    description: "Desarrollé un sistema integral para la recopilación y visualización de datos analíticos mejorando significativamente la eficiencia en el análisis de información empresarial.",
+    laptopImage: "https://i.imgur.com/XieZ5Rm.png",
+    gifImage: "https://i.imgur.com/MOEv9Om.gif",
+    technologies: ["HTML", "CSS", "JavaScript","React","nodejs","mysql"],
+    demoUrl: "https://github.com/fabianalmanza/Menu",
+    repoUrl: "https://github.com/fabianalmanza/Menu",
+  },
+  {
+    title: "Portafolio Personal",
+    description: "Este proyecto es mi portafolio web personal, diseñado y desarrollado para mostrar mis habilidades, proyectos y experiencia como Desarrollador Junior. Utiliza tecnologías modernas de frontend para crear una experiencia de usuario atractiva y responsive.",
+    laptopImage: "https://i.imgur.com/XieZ5Rm.png",
+    gifImage: "https://i.imgur.com/OTY6U1W.png",
+    technologies: ["HTML", "CSS", "JS", "React", "Tailwind", "Netlify"],
+    demoUrl: "https://juego-adivina-palabra.netlify.app/",
+    repoUrl: "https://github.com/fabianalmanza/Juego-Ahorcado_Challengue-2-master",
+    
+  },
+  {
+    title: "Balance Checker",
+    description: "Balance Checker es una aplicación Node.js diseñada para monitorear y gestionar el saldo de una cuenta Twilio. Esta herramienta es crucial para mantener la continuidad de los servicios de comunicación, asegurando que siempre haya fondos suficientes para las operaciones.",
+    laptopImage: "https://i.imgur.com/XieZ5Rm.png",
+    gifImage: "https://i.imgur.com/sGoKEVC.gif",
+    technologies: ["Node.js", "Twilio", "JavaScript","Jwt","Express","postman"],
+    demoUrl: "https://github.com/fabianalmanza/Balance-Checker",
+    repoUrl: "https://github.com/fabianalmanza/Balance-Checker",
+    
+  },
+];
 
+const Experiencia = () => {
+  return (
+    <section className="bg-gray-100 py-12 px-4 md:px-10 overflow-x-auto">
+    <div id="experiencia" className="container mx-auto">
+      <h2 className="text-3xl font-semibold text-center mb-8">Proyectos</h2>
+      <div className="space-y-8">
+        {projects.map((project, index) => (
+          <div
+            key={index}
+            className="bg-white shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row"
+          >
+            {/* Image container */}
+            <div className="w-full md:w-1/3 h-64">
+              <LaptopWithGIF
+                laptopImage={project.laptopImage}
+                gifImage={project.gifImage}
+                title={project.title}
+                specialStyle={project.specialStyle}
+              />
             </div>
-        </section>
-    );
+            {/* Text container */}
+            <div className="p-6 flex-1">
+              <h3 className="text-2xl font-semibold mb-4">{project.title}</h3>
+              <p className="text-gray-600 mb-4">{project.description}</p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {project.technologies.map((tech, techIndex) => (
+                  <span
+                    key={techIndex}
+                    className="px-2 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="bg-gray-50 border-t p-4 flex justify-between">
+                <a
+                  href={project.repoUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-6 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-100"
+                >
+                  Repositorio
+                </a>
+                <a
+                  href={project.demoUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-6 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-100"
+                >
+                  Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+  );
 }
 
 export default Experiencia;
