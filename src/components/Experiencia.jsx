@@ -48,8 +48,8 @@ const projects = [
     laptopImage: "https://i.imgur.com/XieZ5Rm.png",
     gifImage: "https://i.imgur.com/OTY6U1W.png",
     technologies: ["HTML", "CSS", "JS", "React", "Tailwind", "Netlify"],
-    demoUrl: "https://juego-adivina-palabra.netlify.app/",
-    repoUrl: "https://github.com/fabianalmanza/Juego-Ahorcado_Challengue-2-master",
+    demoUrl: "https://portafoliofabianalmanza.netlify.app/",
+    repoUrl: "https://github.com/fabianalmanza/portafolio",
     
   },
   {
