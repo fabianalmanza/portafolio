@@ -7,7 +7,7 @@ const Baner = () => {
             <div className="container mx-auto px-4 flex flex-col items-center">
                 <div className="text-center">
                     <h1 className="text-5xl md:text-9xl font-bold text-white mb-5 text-custom-sm">
-                       Desarrollador <br />Junior 
+                       Desarrollador <br /> De Software
                     </h1>
 
                     <ul className="flex flex-col md:flex-row gap-4 mt-4 md:mt-0 justify-center">
