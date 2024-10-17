@@ -14,7 +14,7 @@ const SobreMi = () => {
                         </div>
 
                         <p className="text-base md:text-lg text-justify leading-relaxed mb-20 ml-20">
-                            Hola Soy Fabian un Desarrollador Junior. <br /> <br />  Poseo sólida experiencia en el desarrollo de aplicaciones tanto en el frontend como en el backend. Mi experiencia abarca
+                            Hola Soy Fabian un Desarrollador de Aplicaciones <br /> <br />  Poseo sólida experiencia en el desarrollo de aplicaciones tanto en el frontend como en el backend. Mi experiencia abarca
                             la creación de interfaces intuitivas, el desarrollo y despliegue de APIs, y la gestión de entornos de producción. He trabajado en proyectos que van
                             desde el desarrollo de portales funcionales hasta la migración y optimización de APIs.
                         </p>
