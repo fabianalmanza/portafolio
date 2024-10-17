@@ -35,7 +35,7 @@ const Baner = () => {
                         </li>
                         <li>
                             <a
-                                href="https://drive.google.com/file/d/1ztNF-tiz3g8mTlPWTLPVl_9SSIME6GF7/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1--DNRYGo27EGx5iUtb4CkrPqxyvMbwce/view?usp=sharing"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-white hover:text-yellow-600 flex items-center space-x-1"
