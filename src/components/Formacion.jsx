@@ -11,7 +11,7 @@ const Formacion = () => {
                       <div className="w-24 h-24 mb-4">
                           <img
                               className="w-full h-full object-contain"
-                              src="https://sena.edu.co/Style%20Library/alayout/images/logoSena.png"
+                              src="https://i.imgur.com/b7r8usz.png"
                               alt="Logo Sena"
                           />
                       </div>
