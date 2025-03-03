@@ -27,7 +27,7 @@ const Formacion = () => {
                       <div className="w-24 h-24 mb-4">
                           <img
                               className="w-full h-full object-contain"
-                              src="https://static.wixstatic.com/media/64ab98_ec1d1018b3e94e3da18ae6fc2266bdc4~mv2.png/v1/fill/w_420,h_192,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/UIS-logo1.png"
+                              src="https://i.imgur.com/HD0UVEE.png"
                               alt="Logo UIS"
                           />
                       </div>
