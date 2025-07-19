@@ -14,9 +14,10 @@ const SobreMi = () => {
                         </div>
 
                         <p className="text-base md:text-lg text-justify leading-relaxed mb-20 ml-20">
-                            Hola Soy Fabian un Desarrollador de Aplicaciones <br /> <br />  Poseo sólida experiencia en el desarrollo de aplicaciones tanto en el frontend como en el backend. Mi experiencia abarca
-                            la creación de interfaces intuitivas, el desarrollo y despliegue de APIs, y la gestión de entornos de producción. He trabajado en proyectos que van
-                            desde el desarrollo de portales funcionales hasta la migración y optimización de APIs.
+                            Ingeniero de Petróleos con formación técnica en programación y actualmente cursando una especialización en<br /> <br />  Big Data. Cuenta con más de 2 años de experiencia en desarrollo de software (frontend y backend) y análisis de 
+                            datos. Posee conocimientos sólidos en Python, Node.js, React, bases de datos e inteligencia artificial aplicada a 
+                            chatbots. Su rol como Observador de Importaciones le ha permitido aplicar análisis de datos, estadísticas y 
+                            visualización en Excel. Aporta valor con su pensamiento crítico, aprendizaje autónomo y comunicación efectiva. 
                         </p>
                     </div>
                     <div className="w-full max-w-[350px] flex items-center justify-center">
