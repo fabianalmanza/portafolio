@@ -14,7 +14,7 @@ const SobreMi = () => {
                         </div>
 
                         <p className="text-base md:text-lg text-justify leading-relaxed mb-20 ml-20">
-                            Ingeniero de Petróleos con formación técnica en programación y actualmente cursando una especialización en<br /> <br />  Big Data. Cuenta con más de 2 años de experiencia en desarrollo de software (frontend y backend) y análisis de 
+                            Ingeniero de Petróleos con formación técnica en programación y actualmente cursando una especialización en Big Data.  Cuenta con más de 2 años de experiencia en desarrollo de software (frontend y backend) y análisis de 
                             datos. Posee conocimientos sólidos en Python, Node.js, React, bases de datos e inteligencia artificial aplicada a 
                             chatbots. Su rol como Observador de Importaciones le ha permitido aplicar análisis de datos, estadísticas y 
                             visualización en Excel. Aporta valor con su pensamiento crítico, aprendizaje autónomo y comunicación efectiva. 
